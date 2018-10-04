@@ -1,0 +1,74 @@
+html, body{
+	color: #FFFFFF;
+}
+.bg-dark{
+background-color:#071619!important
+}
+.bg-primary{
+background-color:#E7F6FF!important
+}
+.btn-primary{
+	background-color: #2E91AB;
+	border-color: #2E91AB;
+}
+
+/* Nav */
+
+.navbar{ }
+.nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}
+.nav-link{ margin-right: 1em !important;}
+.nav-link:hover{ background: #f4f4f4; color: #f97300; }
+.navbar-collapse{ justify-content: flex-end;}
+.navbar-toggler{  background:#fff !important;}
+
+
+
+
+/* Header */
+
+.header{
+ background-image: url('../images/longshot-background-small.jpg');
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+}
+
+
+
+.overlay{
+ position: absolute;
+ min-height: 100%;
+ min-width: 100%;
+ left: 0;
+ top: 0;
+ background: rgba(0, 0, 0, 0.8);
+}
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
+.description h1{
+ color:#2E91AB ;
+}
+.description p{
+ font-size: 20px;
+ line-height: 1.5;
+}
+
+.username-input{
+	border: none;
+	border-radius: 0;
+	background-color: rgba(255,255,255,0.8);
+}
+
+
+
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+.header{
+ background-image: url('../images/longshot-background-large.jpg');
+}
